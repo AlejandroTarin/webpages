@@ -4,10 +4,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
+    color: #34495E; /* Gris Azulado Oscuro */
     line-height: 1.6;
-    background-color: #f8f8f8; /* Fondo más suave */
-    overflow-x: hidden; /* Evitar scroll horizontal por animaciones */
+    background-color: #F0F4F8; /* Gris Azulado Muy Claro */
+    overflow-x: hidden;
 }
 
 .container {
@@ -19,12 +19,12 @@ body {
 
 /* Header */
 header {
-    background-color: #004d40; /* Verde teal oscuro, profesional y moderno */
+    background-color: #1A2C5B; /* Azul Noche Profundo */
     color: #fff;
     padding: 15px 0;
-    border-bottom: 5px solid #ffab00; /* Naranja ámbar para contraste vibrante */
+    border-bottom: 5px solid #00BFFF; /* Azul Cielo Brillante para contraste */
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    position: sticky; /* Sticky header */
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
@@ -61,15 +61,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ffab00;
+    color: #00BFFF; /* Azul Cielo Brillante */
     transform: translateY(-2px);
 }
 
 /* Botones */
 .btn {
     display: inline-block;
-    background-color: #ffab00;
-    color: #004d40;
+    background-color: #00BFFF; /* Azul Cielo Brillante */
+    color: #1A2C5B; /* Azul Noche Profundo */
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 8px;
@@ -79,23 +79,22 @@ header nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #e69d00;
+    background-color: #0099CC; /* Un tono más oscuro del azul para el hover */
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
 .secondary-btn {
     background-color: #fff;
-    color: #004d40;
-    border: 2px solid #004d40;
+    color: #1A2C5B; /* Azul Noche Profundo */
+    border: 2px solid #1A2C5B;
     box-shadow: none;
 }
 
 .secondary-btn:hover {
-    background-color: #f0f0f0;
+    background-color: #F0F4F8; /* Gris Azulado Muy Claro */
     box-shadow: none;
 }
-
 
 /* Main Content Sections */
 main {
@@ -105,16 +104,18 @@ main {
 section {
     padding: 60px 0;
     text-align: center;
-    overflow: hidden; /* Importante para las animaciones de entrada */
+    overflow: hidden;
 }
 
 section:nth-child(even) {
-    background-color: #f0f0f0;
+    background-color: #F0F4F8; /* Gris Azulado Muy Claro */
 }
 
 /* Hero Section */
 .hero {
-    background: url('https://via.placeholder.com/1500x700/004d40/FFFFFF?text=Mislata+Solutions+Background') no-repeat center center/cover;
+    /* Considera cambiar la imagen de fondo para que combine con la nueva paleta. */
+    /* Por ejemplo: 'https://via.placeholder.com/1500x700/1A2C5B/FFFFFF?text=Mislata+Solutions+Background' */
+    background: url('https://via.placeholder.com/1500x700/1A2C5B/FFFFFF?text=Mislata+Solutions+Background') no-repeat center center/cover;
     color: #fff;
     padding: 120px 0;
     min-height: 500px;
@@ -133,7 +134,7 @@ section:nth-child(even) {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3); /* Overlay oscuro para legibilidad del texto */
+    background: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
 
@@ -158,7 +159,7 @@ section:nth-child(even) {
 .services h3 {
     font-size: 3em;
     margin-bottom: 50px;
-    color: #004d40;
+    color: #1A2C5B; /* Azul Noche Profundo */
     font-weight: 700;
 }
 
@@ -175,7 +176,7 @@ section:nth-child(even) {
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border-top: 5px solid #ffab00;
+    border-top: 5px solid #00BFFF; /* Azul Cielo Brillante */
 }
 
 .service-item:hover {
@@ -184,7 +185,7 @@ section:nth-child(even) {
 }
 
 .service-item h4 {
-    color: #004d40;
+    color: #1A2C5B; /* Azul Noche Profundo */
     font-size: 1.8em;
     margin-bottom: 15px;
     font-weight: 600;
@@ -192,7 +193,7 @@ section:nth-child(even) {
 
 .service-item p {
     font-size: 1em;
-    color: #555;
+    color: #34495E; /* Gris Azulado Oscuro */
 }
 
 /* Portfolio Section */
@@ -204,13 +205,13 @@ section:nth-child(even) {
 .portfolio h3 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #004d40;
+    color: #1A2C5B; /* Azul Noche Profundo */
     font-weight: 700;
 }
 
 .portfolio p {
     font-size: 1.2em;
-    color: #666;
+    color: #34495E; /* Gris Azulado Oscuro */
     margin-bottom: 50px;
 }
 
@@ -221,7 +222,7 @@ section:nth-child(even) {
 }
 
 .portfolio-item {
-    background-color: #f9f9f9;
+    background-color: #F0F4F8; /* Gris Azulado Muy Claro */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -238,10 +239,12 @@ section:nth-child(even) {
     height: 250px;
     object-fit: cover;
     display: block;
+    /* Considera cambiar los placeholders para que combinen con la nueva paleta */
+    /* Por ejemplo: https://via.placeholder.com/400x250/1A2C5B/FFFFFF?text=Proyecto+Web+eCommerce */
 }
 
 .portfolio-item h4 {
-    color: #004d40;
+    color: #1A2C5B; /* Azul Noche Profundo */
     font-size: 1.6em;
     margin: 15px 15px 5px;
     font-weight: 600;
@@ -249,7 +252,7 @@ section:nth-child(even) {
 
 .portfolio-item p {
     font-size: 0.95em;
-    color: #666;
+    color: #34495E; /* Gris Azulado Oscuro */
     margin: 0 15px 20px;
     text-align: left;
 }
@@ -257,7 +260,7 @@ section:nth-child(even) {
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: #2C3E50; /* Azul Medianoche */
     color: #eee;
     padding: 50px 0;
     font-size: 0.9em;
@@ -278,7 +281,7 @@ footer {
 }
 
 .footer-section h4 {
-    color: #ffab00;
+    color: #00BFFF; /* Azul Cielo Brillante */
     margin-bottom: 20px;
     font-size: 1.2em;
     font-weight: 600;
@@ -299,7 +302,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-    color: #ffab00;
+    color: #00BFFF; /* Azul Cielo Brillante */
 }
 
 .footer-section a {
@@ -309,98 +312,13 @@ footer {
 }
 
 .footer-section a:hover {
-    color: #ffab00;
+    color: #00BFFF; /* Azul Cielo Brillante */
 }
 
 
 .footer-bottom {
     text-align: center;
     padding-top: 25px;
-    border-top: 1px solid #444;
+    border-top: 1px solid #4A637C; /* Un gris un poco más claro para el borde del footer */
     margin-top: 20px;
-}
-
-/* Animaciones al hacer scroll */
-/* Hidden state */
-.fade-in, .slide-up, .fade-in-left, .fade-in-right, .scale-in {
-    opacity: 0;
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.fade-in {
-    transform: translateY(20px);
-}
-
-.slide-up {
-    transform: translateY(50px);
-}
-
-.fade-in-left {
-    transform: translateX(-50px);
-}
-
-.fade-in-right {
-    transform: translateX(50px);
-}
-
-.scale-in {
-    transform: scale(0.9);
-}
-
-/* Visible state */
-.fade-in.is-visible, .slide-up.is-visible, .fade-in-left.is-visible, .fade-in-right.is-visible, .scale-in.is-visible {
-    opacity: 1;
-    transform: none; /* Resets transform to original state */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header .logo h1 {
-        font-size: 2em;
-        margin-bottom: 10px;
-    }
-
-    header nav ul {
-        margin-top: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    header nav ul li {
-        margin: 5px 10px;
-    }
-
-    .hero h2 {
-        font-size: 2.5em;
-    }
-
-    .hero p {
-        font-size: 1.1em;
-    }
-
-    .services h3, .portfolio h3 {
-        font-size: 2.5em;
-    }
-
-    .service-grid, .portfolio-grid {
-        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
-    }
-
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-section {
-        margin-bottom: 30px;
-    }
-
-    #mapid {
-        height: 200px; /* Un poco más grande en móviles */
-    }
 }
