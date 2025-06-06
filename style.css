@@ -160,6 +160,17 @@ section:nth-child(even) {
 }
 
 /* Services Section */
+
+.services {
+    padding: 80px 0; /* Espaciado interno superior e inferior */
+    text-align: center; /* Centra el texto principal de la sección */
+    position: relative; /* Necesario para el z-index y el apilamiento de capas */
+    overflow: hidden; /* Oculta cualquier desbordamiento de la imagen de fondo */
+
+    /* Fondo de imagen con degradado blanco semi-transparente */
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), /* Capa blanca con 90% de opacidad */
+                url('images/laptopdeskwhite.jpg') no-repeat center center/cover;
+}
 .services h3 {
     font-size: 3em;
     margin-bottom: 50px;
@@ -172,6 +183,7 @@ section:nth-child(even) {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 40px;
     margin-top: 30px;
+
 }
 
 .service-item {
