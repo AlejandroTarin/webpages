@@ -21,7 +21,7 @@ body {
 header {
     background-color: #1A2C5B; /* Azul Noche Profundo */
     color: #fff;
-    padding: 15px 0;
+    padding: 1px 0;
     border-bottom: 5px solid #00BFFF; /* Azul Cielo Brillante para contraste */
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: sticky;
