@@ -214,8 +214,18 @@ section:nth-child(even) {
 
 /* Portfolio Section */
 .portfolio {
-    background-color: #fff;
-    padding: 60px 0;
+    padding: 60px 0; /* Mantiene el padding que ya tenías */
+    position: relative; /* Necesario para el posicionamiento del fondo y el contenido */
+    overflow: hidden; /* Evita desbordamientos de la imagen */
+    text-align: center; /* Centra el contenido como el h3 y p */
+    color: #34495E; /* Mantiene el color base de texto oscuro */
+
+    /* --- FONDO DE LA SECCIÓN CON IMAGEN Y DEGRADADO CLARO --- */
+    /* Degradado blanco con 60% de opacidad (1 - 0.6 = 0.4 para el color de la imagen) */
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+                url('images/portfoliofrog.jpg') no-repeat center center/cover;
+    /* Ajusta '0.6' en rgba para mayor o menor opacidad del velo blanco.
+       Asegúrate que 'images/portfoliofrog.jpg' es la ruta correcta de tu imagen. */
 }
 
 .portfolio h3 {
